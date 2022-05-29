@@ -59,7 +59,6 @@ public class Board {
             sum++;
             }
         }
-        //self
         if (col != width-1){
             if(isAlive(row, col+1)){ //6
                 sum++;
